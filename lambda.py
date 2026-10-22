@@ -8,7 +8,6 @@ numbers=[1,2,6,8]
 j=list(map(lambda x:x**2,numbers))
 print(j)
 
-# i=list(filter(lambda x:x>=4,numbers))
-# print(i)
+i=list(filter(lambda x:x>=4,numbers))
+print(i)
 
-print(j)
